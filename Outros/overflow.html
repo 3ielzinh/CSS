@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizações Básicas com CSS</title>
+    <style>
+    .exemplo {
+        background-color: orange;
+        border: 2px solid purple;
+        padding: 10 auto;
+        width: 200px;
+        height: 200px;
+        overflow: visible;
+    }
+
+    #hidden {
+        overflow: hidden;
+    }
+
+    #scroll {
+        overflow: scroll;
+    }
+
+    #auto {
+        overflow: auto;
+    }
+
+    #x {
+        overflow-x: hidden;
+    }
+
+    #y {
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Propriedade <code>overflow</code></h1>
+        <p>Controla como o conteúdo deve ser exibido caso ultrapasse os limites do container.</p>
+
+        <p><i>Exemplos:</i></p>
+
+        <code>overflow: visibile</code>
+        <div class="exemplo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quia voluptatum earum? Magni tempora molestiae saepe adipisci vitae, perspiciatis, enim fugit cum quis quia praesentium pariatur culpa et odio.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod voluptatibus laboriosam perferendis ratione libero fugit nesciunt asperiores cupiditate nam consequuntur minus, sed nulla atque perspiciatis odio fuga doloribus reiciendis.
+            </p>
+        </div> 
+        <br><br><br><br><br><br><br>
+        <code>overflow: hidden</code>
+        <div id="hidden" class="exemplo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quia voluptatum earum? Magni tempora molestiae saepe adipisci vitae, perspiciatis, enim fugit cum quis quia praesentium pariatur culpa et odio.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod voluptatibus laboriosam perferendis ratione libero fugit nesciunt asperiores cupiditate nam consequuntur minus, sed nulla atque perspiciatis odio fuga doloribus reiciendis.
+            </p>
+        </div> 
+        <br>
+        <code>overflow: scroll</code>
+        <div id="scroll" class="exemplo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quia voluptatum earum? Magni tempora molestiae saepe adipisci vitae, perspiciatis, enim fugit cum quis quia praesentium pariatur culpa et odio.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod voluptatibus laboriosam perferendis ratione libero fugit nesciunt asperiores cupiditate nam consequuntur minus, sed nulla atque perspiciatis odio fuga doloribus reiciendis.
+            </p>
+        </div> 
+        <br>
+        <code>overflow: auto</code>
+        <div id="auto" class="exemplo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quia voluptatum earum? Magni tempora molestiae saepe adipisci vitae, perspiciatis, enim fugit cum quis quia praesentium pariatur culpa et odio.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod voluptatibus laboriosam perferendis ratione libero fugit nesciunt asperiores cupiditate nam consequuntur minus, sed nulla atque perspiciatis odio fuga doloribus reiciendis.
+            </p>
+        </div> 
+        <code>overflow-x: </code>
+        <div id="x" class="exemplo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quia voluptatum earum? Magni tempora molestiae saepe adipisci vitae, perspiciatis, enim fugit cum quis quia praesentium pariatur culpa et odio.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod voluptatibus laboriosam perferendis ratione libero fugit nesciunt asperiores cupiditate nam consequuntur minus, sed nulla atque perspiciatis odio fuga doloribus reiciendis.
+            </p>
+        </div> 
+        <code>overflow-y: </code>
+        <div id="y" class="exemplo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quia voluptatum earum? Magni tempora molestiae saepe adipisci vitae, perspiciatis, enim fugit cum quis quia praesentium pariatur culpa et odio.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod voluptatibus laboriosam perferendis ratione libero fugit nesciunt asperiores cupiditate nam consequuntur minus, sed nulla atque perspiciatis odio fuga doloribus reiciendis.
+            </p>
+        </div> 
+    </main>
+</body>
+</html>

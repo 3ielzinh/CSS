@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizações Básicas com CSS</title>
+    <style>
+        .exemplo {
+            width: 70px;
+            color: black;
+            background-color: blueviolet;
+        }
+
+        #normal {
+            word-wrap: normal;
+        }
+
+        #break-word {
+            word-wrap: break-word;
+        }
+
+        #break-word2 {
+            word-break: normal;
+        }
+
+        #break-all {
+            word-break: break-all;
+        }
+
+        #keep-all {
+            word-break: keep-all;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Propriedade <code>word-wrap</code></h2>
+        <p>Define, caso uma palavra seja muito grande para caber em uma linhas,
+            se ela será quebrada em qualquer caractere para que uma parte dela fique
+            na linha e o restante na próxima, ou se não, toda palavra deve ficar na mesma
+            linha e ultrapassar os limites que definimos para o elemento.
+        </p>
+        <code>word-wrap: normal;</code>
+        <p id="normal" class="exemplo"> Trilha de CSS TrilhadeCSS Trilha de CSS</p>
+        <code>word-wrap: break-word</code>
+        <p id="break-word" class="exemplo"> Trilha de CSS TrilhadeCSS Trilha de CSS</p>
+        
+        <h2>Propriedade <code>word-break</code></h2>
+        <p>Define quando o nosso t exto deve ter uma quebra de linha.</p>
+        <code>word-break: normal;</code>
+        <p id="break-word2" class="exemplo">Trilha de CSS TrilhadeCSS Trilha de CSS</p>
+        <code>word-break: normal;</code>
+        <p id="break-all" class="exemplo">Trilha de CSS TrilhadeCSS Trilha de CSS</p>
+        <code>word-break: normal;</code>
+        <p id="keep-all" class="exemplo">Trilha de CSS TrilhadeCSS Trilha de CSS</p>
+    </main>
+</body>
+</html>

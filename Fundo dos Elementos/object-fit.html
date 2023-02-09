@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Fit</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            border: 5px solid black;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;   
+        }
+
+        #contain {
+            object-fit: contain;
+        }
+
+        #cover {
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+
+        #none {
+            object-fit: none;
+        }
+
+        #scale-down {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Exemplos de resolução de imagens</h1>
+        <div>
+            <img src="./imagens/basquete.jpg" alt="" id="fill">
+        </div>
+        <br>
+        <div>
+            <img src="./imagens/basquete.jpg" alt="" id="contain">
+        </div>
+        <br>
+        <div>
+            <img src="./imagens/basquete.jpg" alt="" id="cover">
+        </div>
+        <br>
+        <div>
+            <img src="./imagens/basquete.jpg" alt="" id="none">
+        </div>
+        <br>
+        <div>
+            <img src="./imagens/basquete.jpg" alt="" id="scale-down">
+        </div>
+        <br>
+    </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizações Básicas com CSS</title>
+    <style>
+        .exemplo {
+            width: 200px;
+            background-color: chartreuse;
+        }
+
+        p {
+            background-color: seagreen;
+            color: white;
+        }
+
+        #normal {
+            white-space: normal;   
+        }
+
+        #nowrap {
+            white-space: nowrap;   
+        }
+
+        #pre {
+            white-space: pre;   
+        }
+
+        #pre-wrap {
+            white-space: pre-wrap;   
+        }
+
+        #break-spaces {
+            white-space: break-spaces;   
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Propriedade <code>white-space</code></h1>
+        <p>Define como os espaços em branco do texto de um detemrinado elemento é tratado</p>
+        <div>
+            <p><i>Exemplos:</i></p><br><br>
+            <code>white-space: normal</code>
+            <p id="normal" class="exemplo">Lorem      ipsum dolor sit amet consectetur, adipisicing elit. Labore, asperiores eveniet, ipsum illum unde nostrum dignissimos quisquam fugiat, deserunt culpa odio consequatur ab ducimus officia voluptates! Doloremque explicabo delectus praesentium?</p><br>
+            <code>white-space: nowrap</code>
+            <p id="nowrap" class="exemplo">Lorem      ipsum dolor sit amet consectetur, adipisicing elit. Labore, asperiores eveniet, ipsum illum unde nostrum dignissimos quisquam fugiat, deserunt culpa odio consequatur ab ducimus officia voluptates! Doloremque explicabo delectus praesentium?</p><br>
+            <code>white-space: pre</code>
+            <p id="pre" class="exemplo">Lorem      ipsum dolor sit amet consectetur, adipisicing elit. Labore, asperiores eveniet, ipsum illum unde nostrum dignissimos quisquam fugiat, deserunt culpa odio consequatur ab ducimus officia voluptates! Doloremque explicabo delectus praesentium?</p><br>
+            <code>white-space: pre-wrap</code>
+            <p id="pre-wrap" class="exemplo">Lorem      ipsum dolor sit amet consectetur, adipisicing elit. Labore, asperiores eveniet, ipsum illum unde nostrum dignissimos quisquam fugiat, deserunt culpa odio consequatur ab ducimus officia voluptates! Doloremque explicabo delectus praesentium?</p><br>
+            <code>white-space: break-spaces</code>
+            <p id="break-spaces" class="exemplo">Lorem      ipsum dolor sit amet consectetur, adipisicing elit. Labore, asperiores eveniet, ipsum illum unde nostrum dignissimos quisquam fugiat, deserunt culpa odio consequatur ab ducimus officia voluptates! Doloremque explicabo delectus praesentium?</p><br>
+        </div>   
+    </main>
+</body>
+</html>     

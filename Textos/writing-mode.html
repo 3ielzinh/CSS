@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizações Básicas com CSS</title>
+    <style>
+        .exemplo {
+            width: 120px;
+            background-color: blue;
+            color: white;
+        }
+
+        #exemplo1 {
+            writing-mode: horizontal-tb;
+        }
+
+        #exemplo2 {
+            writing-mode: vertical-rl;
+        }
+
+        #exemplo3 {
+            writing-mode: vertical-lr;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Propriedade <code>writing-mode</code></h1>
+        <p>Define a orientação do texto (veritical ou horizontal).</p>
+        <p><i>Exemplos:</i></p>
+        <code>writing-mode: horizontal-tb</code>
+        <p id="exemplo1" class="exemplo">Chega de saudade
+            A realidade é que sem ela não há paz.
+        </p>
+        <code>writing-mode: vertical-rl</code>
+        <p id="exemplo2" class="exemplo">Chega de saudade
+            A realidade é que sem ela não há paz.
+        </p>
+        <code>writing-mode: vertical-lr</code>
+        <p id="exemplo3" class="exemplo">Chega de saudade
+            A realidade é que sem ela não há paz.
+        </p>
+    </main>
+</body>
+</html>
